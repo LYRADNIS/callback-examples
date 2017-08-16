@@ -32,7 +32,7 @@ var filter = function (array, callback) {
     });
 
     return result;
-}
+};
 
 var reduce = function (array, callback, initialValue) {
     // if initialValue is undefined, then assign result a null value
